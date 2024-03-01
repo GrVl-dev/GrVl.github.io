@@ -136,7 +136,6 @@ header.contacts-bg {
   background-position: center center;
   background-size: cover;
   cursor: pointer;
-  border-radius: 0.375rem 0.375rem 0 0;
 }
 .card-works-bg-1:hover {
   background-position: top right;
@@ -150,7 +149,6 @@ header.contacts-bg {
   background-position: center center;
   background-size: cover;
   cursor: pointer;
-  border-radius: 0.375rem 0.375rem 0 0;
 }
 .card-works-bg-2:hover {
   background-position: top right;
