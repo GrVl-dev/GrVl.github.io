@@ -91,7 +91,7 @@ header.contacts-bg {
   background-position: center center;
   background-size: cover;
   cursor: pointer;
-  overflow: hidden;
+  border: 0
 }
 .card-bg-2 {
   transition: background-position 2s;
@@ -102,7 +102,7 @@ header.contacts-bg {
   background-position: center center;
   background-size: cover;
   cursor: pointer;
-  overflow: hidden;
+  border: 0
 }
 .card-bg-3 {
   transition: background-position 2s;
@@ -113,6 +113,7 @@ header.contacts-bg {
   background-position: center center;
   background-size: cover;
   cursor: pointer;
+  border: 0
 }
 
 .card-bg-1:hover {
@@ -191,4 +192,5 @@ header.contacts-bg {
 
 .price {
   border: 1px solid lightgrey;
+  background: #ffffff;
 }
