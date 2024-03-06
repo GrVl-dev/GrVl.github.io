@@ -96,30 +96,29 @@
                             <div class="card-body d-flex flex-column justify-content-between">
                                 <h4 class="card-title mb-3">Расчет стоимости окон</h4>
                                 <div class="row">
-                                    <div class="d-flex flex-nowrap col-lg-5 col-md-12 justify-content-center mb-2" style="height: max-content;">
-                                        <input type="radio" class="btn-check" name="class-base" id="econom" autocomplete="off">
+                                    <div class="d-flex flex-nowrap col-lg-5 col-md-12 justify-content-center mb-2" id="classBases" style="height: max-content;">
+                                        <input type="radio" class="btn-check" name="win-class" id="econom"  onclick="viewChecked();">
                                         <label class="btn btn-sm btn-outline-light m-1" for="econom">Эконом</label>
         
-                                        <input type="radio" class="btn-check" name="class-base" id="standart" autocomplete="off" checked>
+                                        <input type="radio" class="btn-check" name="win-class" id="standart" onclick="viewChecked();" checked>
                                         <label class="btn btn-sm btn-outline-light m-1" for="standart">Стандарт</label>
                                         
-                                        <input type="radio" class="btn-check" name="class-base" id="elite" autocomplete="off">
+                                        <input type="radio" class="btn-check" name="win-class" id="elite" onclick="viewChecked();">
                                         <label class="btn btn-sm btn-outline-light m-1" for="elite">Элит</label>
                                     </div>
-                                    <div class="col-lg-3 col-md-12 px-2 d-flex justify-content-center mb-2">
-                                        <img src="assets/img/calc/okno_big_2_1.png" alt="" style="width: 100px;">
+                                    <div class="col-lg-3 col-md-12 px-2 d-flex justify-content-center mb-2" id="win-img">
                                     </div>
                                     <div class="d-flex justify-content-center flex-nowrap  col-lg-4 col-md-12 mb-2">
                                         <div class="dropdown-center mx-1">
                                             <button class="btn win-2" type="button" data-bs-toggle="dropdown" aria-expanded="true">
                                             </button>
                                             <div class="dropdown-menu">
-                                                <input type="radio" class="btn-check" name="type-base" id="okno_2_1" autocomplete="off" checked>
-                                                <label class="dropdown-item btn btn-outline-primary" style="border-radius: 0;" for="okno_2_1">
+                                                <input type="radio" class="btn-check" name="win-type" id="twoOne" autocomplete="off" onclick="viewChecked();" checked>
+                                                <label class="dropdown-item btn btn-outline-primary" style="border-radius: 0;" for="twoOne">
                                                     <img src="assets/img/calc/okno_2_1.png" alt="">
                                                 </label>
-                                                <input type="radio" class="btn-check" name="type-base" id="okno_2_2" autocomplete="off">
-                                                <label class="dropdown-item btn btn-outline-primary" style="border-radius: 0;" for="okno_2_2">
+                                                <input type="radio" class="btn-check" name="win-type" id="twoTwo" autocomplete="off" onclick="viewChecked();">
+                                                <label class="dropdown-item btn btn-outline-primary" style="border-radius: 0;" for="twoTwo">
                                                     <img src="assets/img/calc/okno_2_2.png" alt="">
                                                 </label>
     
@@ -129,16 +128,16 @@
                                             <button class="btn win-3" type="button" data-bs-toggle="dropdown" aria-expanded="true">
                                             </button>
                                             <div class="dropdown-menu">
-                                                <input type="radio" class="btn-check" name="type-base" id="okno_3_1" autocomplete="off">
-                                                <label class="dropdown-item btn btn-outline-primary" style="border-radius: 0;" for="okno_3_1">
+                                                <input type="radio" class="btn-check" name="win-type" id="threeOne" autocomplete="off" onclick="viewChecked();">
+                                                <label class="dropdown-item btn btn-outline-primary" style="border-radius: 0;" for="threeOne">
                                                     <img src="assets/img/calc/okno_3_1.png" alt="">
                                                 </label>
-                                                <input type="radio" class="btn-check" name="type-base" id="okno_3_2" autocomplete="off">
-                                                <label class="dropdown-item btn btn-outline-primary" style="border-radius: 0;" for="okno_3_2">
+                                                <input type="radio" class="btn-check" name="win-type" id="threeTwo" autocomplete="off" onclick="viewChecked();">
+                                                <label class="dropdown-item btn btn-outline-primary" style="border-radius: 0;" for="threeTwo">
                                                     <img src="assets/img/calc/okno_3_2.png" alt="">
                                                 </label>
-                                                <input type="radio" class="btn-check" name="type-base" id="okno_3_3" autocomplete="off">
-                                                <label class="dropdown-item btn btn-outline-primary" style="border-radius: 0;" for="okno_3_3">
+                                                <input type="radio" class="btn-check" name="win-type" id="threeThree" autocomplete="off" onclick="viewChecked();">
+                                                <label class="dropdown-item btn btn-outline-primary" style="border-radius: 0;" for="threeThree">
                                                     <img src="assets/img/calc/okno_3_3.png" alt="">
                                                 </label>
     
@@ -148,12 +147,12 @@
                                             <button class="btn win-4" type="button" data-bs-toggle="dropdown" aria-expanded="true">
                                             </button>
                                             <div class="dropdown-menu">
-                                                <input type="radio" class="btn-check" name="type-base" id="okno_4_1" autocomplete="off">
-                                                <label class="dropdown-item btn btn-outline-primary" style="border-radius: 0;" for="okno_4_1">
+                                                <input type="radio" class="btn-check" name="win-type" id="block" autocomplete="off" onclick="viewChecked();">
+                                                <label class="dropdown-item btn btn-outline-primary" style="border-radius: 0;" for="block">
                                                     <img src="assets/img/calc/okno_4_1.png" alt="">
                                                 </label>
-                                                <input type="radio" class="btn-check" name="type-base" id="okno_4_2" autocomplete="off">
-                                                <label class="dropdown-item btn btn-outline-primary" style="border-radius: 0;" for="okno_4_2">
+                                                <input type="radio" class="btn-check" name="win-type" id="blockOne" autocomplete="off" onclick="viewChecked();">
+                                                <label class="dropdown-item btn btn-outline-primary" style="border-radius: 0;" for="blockOne">
                                                     <img src="assets/img/calc/okno_4_2.png" alt="">
                                                 </label>  
                                             </div>
@@ -164,31 +163,31 @@
 
                                     <div class="d-flex flex-column p-2">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="install">
+                                            <input class="form-check-input" name="options" type="checkbox" value="" id="install" onchange="viewChecked()">
                                             <label class="form-check-label" for="install">
                                                 Монтаж
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="mosquitoNet">
+                                            <input class="form-check-input" name="options" type="checkbox" value="" id="mosquitoNet" onchange="viewChecked()">
                                             <label class="form-check-label" for="mosquitoNet">
                                                 Москитная сетка
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="lowTides">
+                                            <input class="form-check-input" name="options" type="checkbox" value="" id="lowTides" onchange="viewChecked()">
                                             <label class="form-check-label" for="lowTides">
                                                 Отливы
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="sills">
+                                            <input class="form-check-input" name="options" type="checkbox" value="" id="sills" onchange="viewChecked()">
                                             <label class="form-check-label" for="sills">
                                                 Подоконник
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="slopes">
+                                            <input class="form-check-input" name="options" type="checkbox" value="" id="slopes" onchange="viewChecked()">
                                             <label class="form-check-label" for="slopes">
                                                 Откосы
                                             </label>
@@ -199,11 +198,11 @@
                                         <div class="align-self-center"><b>Cтоимость окна</b></div>
                                         <div class="d-flex flex-nowrap align-items-center">
                                             <p class="mx-1">Стоимость изделия</p>
-                                            <p class="mx-1 fs-6">11000p</p>
+                                            <p class="mx-1 fs-6"><span id="priceBase"></span> p</p>
                                         </div>
                                         <div class="d-flex flex-nowrap align-items-center">
                                             <p class="mx-1">Стоимость c опциями</p>
-                                            <p class="mx-1 fs-6">11000p</p>
+                                            <p class="mx-1 fs-6"><span id="priceOptions"></span> p</p>
                                         </div>
                                     </div>
                                 </div>
