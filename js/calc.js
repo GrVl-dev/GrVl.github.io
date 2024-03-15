@@ -3,9 +3,9 @@ const viewChecked = () => {
   const WinClass = document.querySelector('input[name="win-class"]:checked').id;
   const WinType = document.querySelector('input[name="win-type"]:checked').id;
   const Options = document.querySelectorAll('input[name="options"]:checked');
-  let Img = document.getElementById("win-img");
-  let priceBase = document.getElementById("priceBase"); 
-  let priceOptions = document.getElementById("priceOptions"); 
+  const Img = document.getElementById("win-img");
+  const priceBase = document.getElementById("priceBase"); 
+  const priceOptions = document.getElementById("priceOptions"); 
   let price = 0;
 
   for (o of Options) {
