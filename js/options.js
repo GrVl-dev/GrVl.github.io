@@ -1,24 +1,4 @@
 
-function viewChecked() {
-  let WinClass = document.querySelector('input[name="win-class"]:checked').id;
-  let WinType = document.querySelector('input[name="win-type"]:checked').id;
-  let Options = document.querySelectorAll('input[name="options"]:checked');
-  let Img = document.getElementById("win-img");
-  let priceBase = document.getElementById("priceBase");
-  let priceOptions = document.getElementById("priceOptions");
-  let price = 0;
-
-  for (o of Options) {
-    if (o.id) {
-      price += windows.winType[WinType].options[o.id];
-    }
-  };
-
-  priceBase.innerHTML = windows.winType[WinType][WinClass];
-  priceOptions.innerHTML = windows.winType[WinType][WinClass] + price;
-  Img.innerHTML = windows.winType[WinType].img;
-}
-
 let optionsTwo = {
   install: 3870,
   mosquitoNet: 900,
@@ -93,4 +73,4 @@ let windows = {
     },
   },
 }
-viewChecked();
+

@@ -48,6 +48,7 @@ header.index-bg {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  height: 420px;
 }
 header.about-bg {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.1)),
@@ -56,6 +57,7 @@ header.about-bg {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  height: 420px;
 }
 header.works-bg {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.1)),
@@ -64,6 +66,7 @@ header.works-bg {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  height: 420px;
 }
 header.blog-bg {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.1)),
@@ -72,6 +75,7 @@ header.blog-bg {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  height: 420px;
 }
 header.contacts-bg {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.1)),
@@ -80,6 +84,7 @@ header.contacts-bg {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  height: 420px;
 }
 
 .card-bg-1 {
