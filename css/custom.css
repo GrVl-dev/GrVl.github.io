@@ -87,6 +87,16 @@ header.contacts-bg {
   height: 450px;
 }
 
+header.notfound-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.1)),
+    url('../assets/img/404/404.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  height: 450px;
+}
+
 .card-bg-1 {
   transition: background-position 2s;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
