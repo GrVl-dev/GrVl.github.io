@@ -190,3 +190,7 @@ header.contacts-bg {
 .content {
   padding-bottom: 70px;
 }
+
+.text-justify {
+  text-align: justify;
+}

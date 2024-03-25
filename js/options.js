@@ -73,4 +73,3 @@ let windows = {
     },
   },
 }
-
