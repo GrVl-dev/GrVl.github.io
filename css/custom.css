@@ -199,8 +199,13 @@ header.notfound-bg {
 
 .content {
   padding-bottom: 70px;
+  min-height: calc(100vh - 350px - 88px);
 }
 
 .text-justify {
   text-align: justify;
+}
+
+.footer {
+  min-height: 88px;
 }
