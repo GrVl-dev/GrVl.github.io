@@ -1,4 +1,3 @@
-
 function viewChecked() {
   let WinClass = document.querySelector('input[name="win-class"]:checked').id;
   let WinType = document.querySelector('input[name="win-type"]:checked').id;
