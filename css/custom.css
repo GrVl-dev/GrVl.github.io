@@ -72,7 +72,7 @@ header.works-bg {
 }
 header.products-bg {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.1)),
-    url('../assets/img/products/news-header-bg.jpg');
+    url('../assets/img/products/products-header-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
