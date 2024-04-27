@@ -79,6 +79,15 @@ header.products-bg {
   background-size: cover;
   height: 450px;
 }
+header.news-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.1)),
+    url('../assets/img/news/news-header-bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  height: 450px;
+}
 header.contacts-bg {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.1)),
     url('../assets/img/contacts/contacts-header-bg.jpg');
